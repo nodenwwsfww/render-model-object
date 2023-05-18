@@ -1,0 +1,8 @@
+/node_modules/
+client/node_modules/
+client/dist
+build
+client/.env
+.env
+../.idea/
+.idea
