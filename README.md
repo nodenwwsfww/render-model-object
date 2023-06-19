@@ -17,13 +17,21 @@ Open http://localhost:3000/
 ```
 
 
-С чем столкнулся?
+## Challenges Faced:
 
-Разбирался в пакетах, библиотеках которые понадобятся и пытался стыковать все это у себя в голове
-Поэтому поэтапно разбирал разные моменты, а не делал все сразу
-Сначала ставил сервер на express, подключал grapiql интерфейс на сервер, потом понял что это все нужно делать именно на клиенте, чтобы можно было получившийся query использовать и отрисовывать компоненты с моделями.
-Ещё process.env с вебпаком не хотел работать, вспомнил про dotenv-webpack
-Столкнулся с проблемой отрисовки моделей. Пока не решил, разбираюсь как сделать так как на примере на скриншоте. Именно с точки зрения отображения модели.
-Использовал приведенный код в test-case. Оно совершенно по другому стало отображать. В общем думаю ещё потыкать над этим.
+During my work, I encountered a range of challenges:
+
+1. **Understanding Packages and Libraries**: I was navigating through numerous packages and libraries that would be essential for my task. The process involved piecing together these varied elements in my head.
+
+2. **Setting up an Express Server**: Initially, I set up an Express server and connected the GraphiQL interface to it.
+
+3. **Realizing the Importance of Client-Side Operations**: Subsequently, I realized that all these operations needed to be executed on the client-side, so that the generated queries could be used to render components with models.
+
+4. **Issues with process.env and Webpack**: process.env was not cooperating with webpack. This reminded me of `dotenv-webpack` that I decided to employ.
+
+5. **Problem with Model Rendering**: I ran into difficulties while trying to render the models. As of now, this issue remains unresolved, and I'm figuring out how to do it in the same way as in the given example screenshot. This pertains particularly to the aspect of model rendering. I tried using the provided code in the test-case, but it led to a completely different way of representation. 
+
+Going forward, I plan to delve deeper into this and work out a solution.
+
 ![image](https://github.com/nodenwwsfww/render-model-object/assets/54706661/7dacd1a8-e734-4f94-bb38-fa2a2221fd9a)
 ![image](https://github.com/nodenwwsfww/render-model-object/assets/54706661/c450dc80-7de8-47ca-a077-4a5e5f1e8839)
